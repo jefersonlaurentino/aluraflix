@@ -1,0 +1,58 @@
+.div_cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px 0 20px 0;
+    overflow-y: hidden;
+    
+}
+
+.card {
+    width: 90%;
+    min-width: 300px;
+    max-width: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card_img {
+    position: relative;
+}
+
+.card_img > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.card_img img {
+    width: 100%;
+}
+
+.button_card {
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.button_card > button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 15px;
+}
+
+
+
+.button_card >button:nth-child(1) {
+    border: none;
+}

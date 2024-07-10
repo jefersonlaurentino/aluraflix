@@ -1,0 +1,16 @@
+::-webkit-scrollbar:horizontal {
+    background-color: #2271d12b;
+    border-radius: 10px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2271D1;
+    border-radius: 10px;   
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    border-radius: 10px;
+    width: 10px;
+}

@@ -1,0 +1,28 @@
+.campo_input {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.campo_input > input , .campo_input > textarea , .campo_input > select{
+    border: 1px solid gray;
+    color: white;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 10px 5px;
+    font-size: 15px;
+    resize: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+@media (max-width: 550px) {
+    .campo_input {
+        width: 100%;
+    }
+}
